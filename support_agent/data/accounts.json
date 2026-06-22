@@ -1,0 +1,57 @@
+{
+  "plans": {
+    "basic_5gb": {"name": "Basic 5GB", "price_monthly": 25.0, "data_gb": 5, "hotspot": false},
+    "plus_25gb": {"name": "Plus 25GB", "price_monthly": 45.0, "data_gb": 25, "hotspot": true},
+    "premium_unlimited": {"name": "Premium Unlimited", "price_monthly": 70.0, "data_gb": null, "hotspot": true}
+  },
+  "outages": [
+    {"area": "94110", "status": "investigating", "since": "2026-06-22T09:15:00Z", "eta": "2026-06-22T15:00:00Z"}
+  ],
+  "accounts": [
+    {
+      "account_id": "ACC10001",
+      "name": "Maria Alvarez",
+      "phone": "+14155550101",
+      "zip": "94110",
+      "plan_id": "plus_25gb",
+      "line_status": "active",
+      "card_last4": "4242",
+      "billing": {
+        "balance_due": 45.0,
+        "due_date": "2026-07-01",
+        "last_invoice": {"date": "2026-06-01", "amount": 45.0, "paid": false}
+      },
+      "usage": {"cycle_start": "2026-06-01", "data_used_gb": 22.4}
+    },
+    {
+      "account_id": "ACC10002",
+      "name": "James Okafor",
+      "phone": "+14155550102",
+      "zip": "30301",
+      "plan_id": "basic_5gb",
+      "line_status": "suspended",
+      "card_last4": "1881",
+      "billing": {
+        "balance_due": 50.0,
+        "due_date": "2026-06-10",
+        "last_invoice": {"date": "2026-05-10", "amount": 25.0, "paid": false}
+      },
+      "usage": {"cycle_start": "2026-06-01", "data_used_gb": 5.0}
+    },
+    {
+      "account_id": "ACC10003",
+      "name": "Wei Chen",
+      "phone": "+14155550103",
+      "zip": "10001",
+      "plan_id": "premium_unlimited",
+      "line_status": "active",
+      "card_last4": "9310",
+      "billing": {
+        "balance_due": 0.0,
+        "due_date": "2026-07-01",
+        "last_invoice": {"date": "2026-06-01", "amount": 70.0, "paid": true}
+      },
+      "usage": {"cycle_start": "2026-06-01", "data_used_gb": 88.1}
+    }
+  ]
+}
